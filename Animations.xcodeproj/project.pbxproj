@@ -11,6 +11,7 @@
 		FA5CFF5326E682AB00AEF95B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5CFF5226E682AB00AEF95B /* ContentView.swift */; };
 		FA5CFF5526E682AC00AEF95B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA5CFF5426E682AC00AEF95B /* Assets.xcassets */; };
 		FA5CFF5826E682AC00AEF95B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA5CFF5726E682AC00AEF95B /* Preview Assets.xcassets */; };
+		FA5CFF6026E68FF300AEF95B /* GaugeProgressStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5CFF5F26E68FF300AEF95B /* GaugeProgressStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		FA5CFF5426E682AC00AEF95B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA5CFF5726E682AC00AEF95B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FA5CFF5926E682AC00AEF95B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA5CFF5F26E68FF300AEF95B /* GaugeProgressStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeProgressStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				FA5CFF5426E682AC00AEF95B /* Assets.xcassets */,
 				FA5CFF5926E682AC00AEF95B /* Info.plist */,
 				FA5CFF5626E682AC00AEF95B /* Preview Content */,
+				FA5CFF5F26E68FF300AEF95B /* GaugeProgressStyle.swift */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA5CFF6026E68FF300AEF95B /* GaugeProgressStyle.swift in Sources */,
 				FA5CFF5326E682AB00AEF95B /* ContentView.swift in Sources */,
 				FA5CFF5126E682AB00AEF95B /* AnimationsApp.swift in Sources */,
 			);
